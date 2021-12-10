@@ -14,7 +14,7 @@ So let's have another go on the good ol' snake - this year in Python 3.8.10
 | **[03](https://adventofcode.com/2020/day/3)**  |||
 | **[04](https://adventofcode.com/2020/day/4)**  |||
 | **[05](https://adventofcode.com/2020/day/5)**  |||
-| **[06](https://adventofcode.com/2020/day/6)**  |||
+| **[06](https://adventofcode.com/2020/day/6)**  | [⭐](day06_1.py) | [⭐](day06_2.py) |
 | **[07](https://adventofcode.com/2020/day/7)**  |||
 | **[08](https://adventofcode.com/2020/day/8)**  |||
 | **[09](https://adventofcode.com/2020/day/9)**  |||
