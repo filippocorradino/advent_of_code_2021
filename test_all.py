@@ -16,18 +16,19 @@ import unittest
 
 class TestResults(unittest.TestCase):
 
-    solutions = {'day06': [394994, 1765974267455]}
+    solutions = {'day06': [394994, 1765974267455],
+                 'day08': [521, 1016804]}
 
     def test_results(self):
         """
         Test all challenges scripts results
         """
         for script in self.solutions:
-            print("Testing {0}.py...".format(script))
+            print("\nTesting {0}.py...".format(script))
             with self.subTest(i=script):
                 module = import_module(script)
                 self.assertEqual(module.main(), self.solutions[script])
-        print("All done")
+        print("\nAll done")
 
 
 if __name__ == '__main__':
