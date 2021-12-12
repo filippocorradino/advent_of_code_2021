@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-Advent of Code 2021 - Day 08 - Challenge 1
+Advent of Code 2021 - Day 08
 https://adventofcode.com/2021/day/08
 
 Solution 1: 521
