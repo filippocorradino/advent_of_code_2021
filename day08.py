@@ -54,8 +54,8 @@ def main(ifile='inputs/day_08_input.txt'):
                             if len(digit) in unique_lengths])
             # Part 2
             str_to_sign = {x: v for x, v in zip(pattern, signatures(pattern))}
-            out = [sign_to_num[str_to_sign[x]] for x in output]
-            total += int(''.join(str(x) for x in out))
+            output_value = [sign_to_num[str_to_sign[x]] for x in output]
+            total += int(''.join(str(x) for x in output_value))
     print(f"There are {counter} digits with a unique number of segments")
     print(f"The sum of all 4-digit outputs is {total}")
     return [counter, total]
