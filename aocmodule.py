@@ -20,3 +20,7 @@ def sliding_window(iterable, n=2):
         for _ in range(i):
             next(iterator, None)
     return zip(*iterators)
+
+
+def sumiter(*iterables):
+    return (sum(x) for x in zip(*iterables))
