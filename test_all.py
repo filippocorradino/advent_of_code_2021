@@ -17,6 +17,7 @@ import unittest
 class TestResults(unittest.TestCase):
 
     solutions = {'day01': [1766, 1797],
+                 'day02': [2117664, 2073416724],
                  'day06': [394994, 1765974267455],
                  'day08': [521, 1016804]}
 
