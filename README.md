@@ -41,4 +41,3 @@ Click on the ⭐ to go to the solution script
 * Simple and readable code, as pythonic as I can make it
 * Readability and versatility over efficiency
 * No dependencies outside standard library
-* Finish AoC 2021 before AoC 2022 (each Day of 2021 before the corresponding Day of 2022)
