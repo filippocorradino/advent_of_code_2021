@@ -40,4 +40,5 @@ Click on the ⭐ to go to the solution script
 #### Target
 * Simple and readable code, as pythonic as I can make it
 * Readability and versatility over efficiency
+* Scalability whenever possible (O(1) memory usage)
 * No dependencies outside standard library
